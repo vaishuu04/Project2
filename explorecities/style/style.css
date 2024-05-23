@@ -1,0 +1,165 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../images/maharastra1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%; height: 11vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+	width: 30%;
+	text-align: center;
+	color: #00b894;
+	text-shadow: 1px 1px 2px #000;
+
+}
+
+nav .menu{
+	width: 45%;
+	justify-content: center;
+}
+
+nav .menu a {
+	padding: 12px 25px;
+	border-radius: 4px;
+	outline: none;
+	width: 20%;
+	text-align: center;
+	text-decoration: none; color: white;
+	font-weight: bold;
+}
+
+main{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; color: white;
+}
+
+.menu a:hover{
+	background: #fff;
+	color: #000;
+}
+
+section h1{
+	margin: 30px 0 10px 0;
+	font-size: 45px;
+	font-weight: 400;
+	text-shadow: 2px 1px 5px #000;
+	text-transform: uppercase;
+}
+
+
+section h3{
+	font-size: 35px; font-weight: 700; letter-spacing: 3px;
+	margin-bottom: 30px;
+	color: #00b894;
+	text-shadow: 1px 1px 2px black;
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 2px;
+	justify-content: space-around;
+}
+
+section .btnone{
+	background: transparent;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.6;
+
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #000;
+}
+
+section .btntwo{
+	background: transparent;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.6;
+}
+
+.btntwo:hover{
+	background: #fff;
+	color: #000;
+}
+
+section .btnthree{
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	transition: 0.6;
+
+}
+
+.btnthree:hover{
+	background: #00b894;
+	color: #000;
+}
+
+section .btnfour{
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	transition: 0.6;
+}
+
+.btnfour:hover{
+	background: #fff;
+	color: #000;
+}
+
+section .btnfive{
+	background: transparent;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.6;
+
+}
+
+.btnfive:hover{
+	background: #00b894;
+	color: #000;
+}
+
+section .btnsix{
+	background: transparent;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.6;
+}
+
+.btnsix:hover{
+	background: #fff;
+	color: #000;
+}

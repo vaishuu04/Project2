@@ -1,0 +1,167 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../images/maharastra2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: change 20s infinite ease-in;
+}
+
+nav{
+	width: 100%; height: 11vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: black;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+	width: 30%;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 2px #00b894;
+
+}
+
+nav .menu{
+	width: 45%;
+}
+
+nav .menu a {
+	padding: 12px 30px;
+	border-radius: 4px;
+	outliflexne: none;
+	width: 20%;
+	text-align: center;
+	text-decoration: none; color: white;
+	font-weight: bold;
+	margin-right: 0;
+}
+
+
+main{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; color: white;
+}
+
+.menu a:hover{
+	background: #00b894;
+	color: #000;
+}
+
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 45px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+section .btnone{
+	border:1px solid #00b894;
+	padding: 10px 20px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	transition: 0.6;
+
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #000;
+}
+
+section .btnthree{
+	border:1px solid #fff;
+	padding: 10px 20px;
+	background: #00b894;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.6;
+}
+
+.btnthree:hover{
+	background: #fff;
+	color: #000;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 20s infinite ease-in;
+	color: #00b894;
+}
+
+@keyframes changetext{
+	0%{content:"LONAVLA";}
+	20%{content:"MUMBAI";}
+	35%{content:"PUNE";}
+	60%{content:"KOLHAPUR";}
+	80%{content:"NAGPUR";}
+	100%{content:"KOKAN";}
+}
+
+.change{
+	width: 100%; height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@keyframes change{
+	1%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/maharastra2.jpeg');}
+	20%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/mumbai3.jpeg');}
+	35%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/pune7.jpeg');}
+	60%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/kolhapur.jpg');}
+	80%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/maha9.jpeg');}
+	100%{background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/pune2.1.jpesg');}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
